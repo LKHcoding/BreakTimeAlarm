@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAlarm", "WpfAlarm.csproj", "{41545BF0-354B-459A-9A69-3FD7C17AEF96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41545BF0-354B-459A-9A69-3FD7C17AEF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41545BF0-354B-459A-9A69-3FD7C17AEF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41545BF0-354B-459A-9A69-3FD7C17AEF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41545BF0-354B-459A-9A69-3FD7C17AEF96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45BCDF0C-A085-4930-A524-B47A6EE78462}
+	EndGlobalSection
+EndGlobal

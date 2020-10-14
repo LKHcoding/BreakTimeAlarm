@@ -1,0 +1,14 @@
+D:\WpfAlarm\WpfAlarm\obj\Debug\MainWindow.g.cs
+D:\WpfAlarm\WpfAlarm\obj\Debug\App.g.cs
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm_MarkupCompile.cache
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm_MarkupCompile.lref
+D:\WpfAlarm\WpfAlarm\obj\Debug\MainWindow.baml
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.g.resources
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.csproj.GenerateResource.cache
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.pdb
+D:\WpfAlarm\WpfAlarm\bin\Debug\WpfAlarm.exe.config
+D:\WpfAlarm\WpfAlarm\bin\Debug\WpfAlarm.exe
+D:\WpfAlarm\WpfAlarm\bin\Debug\WpfAlarm.pdb
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.Properties.Resources.resources
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.csproj.CoreCompileInputs.cache
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.exe
