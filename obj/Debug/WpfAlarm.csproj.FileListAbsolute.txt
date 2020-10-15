@@ -12,3 +12,4 @@ D:\WpfAlarm\WpfAlarm\bin\Debug\WpfAlarm.pdb
 D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.Properties.Resources.resources
 D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.csproj.CoreCompileInputs.cache
 D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.exe
+D:\WpfAlarm\WpfAlarm\obj\Debug\WpfAlarm.csprojAssemblyReference.cache
