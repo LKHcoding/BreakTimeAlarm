@@ -57,10 +57,10 @@ namespace WpfAlarm
                 //UI 시간 업데이트
                 this.clocklabel.Content = DateTime.Now.ToString("yyyy-MM-dd \n HH:mm:ss");
 
-                if (DateTime.Now > new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 9, 50, 0) && !(DateTime.Now.DayOfWeek.ToString() == "Sunday" || DateTime.Now.DayOfWeek.ToString() == "Saturday")
+                if (DateTime.Now > new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 9, 1, 0) && !(DateTime.Now.DayOfWeek.ToString() == "Sunday" || DateTime.Now.DayOfWeek.ToString() == "Saturday")
                 && DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 23, 0, 0))
                 {
-                    if ((DateTime.Now.Minute >= 1 || DateTime.Now.Minute <= 49) &&
+                    if ((DateTime.Now.Minute >= 1 && DateTime.Now.Minute <= 49) &&
                     (DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 18, 0, 0)))
                     {
                         canAlarm = true;
