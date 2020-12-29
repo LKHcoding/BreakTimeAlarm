@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label x:Name="clocklabel" Content="Timer" HorizontalAlignment="Left" Margin="127,142,0,0" VerticalAlignment="Top" Height="188" Width="557" FontSize="40" 
-               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="By LKHcoding" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="260"/>
         <Label Content="BreakTime Alarm" HorizontalAlignment="Left" Margin="232,93,0,0" VerticalAlignment="Top"
                Height="49" Width="331" HorizontalContentAlignment="Center" FontSize="20"/>
-        <Label Content="By LKHcoding" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="260"/>
+        <Label x:Name="clocklabel" Content="Timer" HorizontalAlignment="Left" Margin="127,142,0,0" VerticalAlignment="Top" Height="188" Width="557" FontSize="40" 
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="clocklabel2" HorizontalAlignment="Left" Margin="127,330,0,0" VerticalAlignment="Top" Height="53" Width="557" FontSize="25" 
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
     </Grid>
 </Window>

@@ -34,11 +34,11 @@ namespace WpfAlarm
 
             MediaPlayer media1 = new MediaPlayer();
             string asdf = AppDomain.CurrentDomain.BaseDirectory.Replace("\\", "/");
-            media1.Open(new Uri(asdf + "/Resources/1.mp3"));
+           /* media1.Open(new Uri(asdf + "/Resources/1.mp3"));*/
             MediaPlayer media2 = new MediaPlayer();
-            media2.Open(new Uri(asdf + "/Resources/2.mp3"));
+           /* media2.Open(new Uri(asdf + "/Resources/2.mp3"));*/
             MediaPlayer media3 = new MediaPlayer();
-            media3.Open(new Uri(asdf + "/Resources/3.mp3"));
+           /* media3.Open(new Uri(asdf + "/Resources/3.mp3"));*/
 
             SetClock();
 
@@ -67,40 +67,43 @@ namespace WpfAlarm
                         (DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 18, 0, 0)))
                         {
                             canAlarm = true;
-                            media1.Stop();
-                            media2.Stop();
-                            media3.Stop();
+                            
                         }
 
                         if (DateTime.Now > new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 9, 50, 0) && DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 10, 0, 0))
                         {
                             if (canAlarm == true)
                             {
+                                media1.Open(new Uri(asdf + "/Resources/1.mp3"));
                                 media1.Play();
                                 MessageBox.Show("쌤 쉬는시간 이에요", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media1.Stop();
+                                media1.Close();
                             }
                         }
                         if (DateTime.Now > new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 10, 50, 0) && DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 11, 0, 0))
                         {
                             if (canAlarm == true)
                             {
+                                media1.Open(new Uri(asdf + "/Resources/1.mp3"));
                                 media1.Play();
                                 MessageBox.Show("쌤 쉬는시간 이에요", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media1.Stop();
-
+                                media1.Close();
                             }
                         }
                         if (DateTime.Now > new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 11, 50, 0) && DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 12, 0, 0))
                         {
                             if (canAlarm == true)
                             {
+                                media1.Open(new Uri(asdf + "/Resources/1.mp3"));
                                 media1.Play();
                                 MessageBox.Show("쌤 쉬는시간 이에요", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media1.Stop();
+                                media1.Close();
 
                             }
                         }
@@ -108,31 +111,36 @@ namespace WpfAlarm
                         {
                             if (canAlarm == true)
                             {
+                                media2.Open(new Uri(asdf + "/Resources/2.mp3"));
                                 media2.Play();
                                 MessageBox.Show("쌤 점심시간 이에요 밥먹으러가요", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media2.Stop();
-
+                                media2.Close();
                             }
                         }
                         if (DateTime.Now > new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 14, 50, 0) && DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 15, 0, 0))
                         {
                             if (canAlarm == true)
                             {
+                                media1.Open(new Uri(asdf + "/Resources/1.mp3"));
                                 media1.Play();
                                 MessageBox.Show("쌤 쉬는시간 이에요", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media1.Stop();
+                                media1.Close();
                             }
                         }
                         if (DateTime.Now > new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 15, 50, 0) && DateTime.Now < new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 16, 0, 0))
                         {
                             if (canAlarm == true)
                             {
+                                media1.Open(new Uri(asdf + "/Resources/1.mp3"));
                                 media1.Play();
                                 MessageBox.Show("쌤 쉬는시간 이에요", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media1.Stop();
+                                media1.Close();
 
                             }
                         }
@@ -140,10 +148,12 @@ namespace WpfAlarm
                         {
                             if (canAlarm == true)
                             {
+                                media1.Open(new Uri(asdf + "/Resources/1.mp3"));
                                 media1.Play();
                                 MessageBox.Show("쌤 쉬는시간 이에요", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media1.Stop();
+                                media1.Close();
 
                             }
                         }
@@ -152,11 +162,12 @@ namespace WpfAlarm
                         {
                             if (canAlarm == true)
                             {
+                                media3.Open(new Uri(asdf + "/Resources/3.mp3"));
                                 media3.Play();
                                 MessageBox.Show("쌤 수업끝났어요 ㅎㅎ", "Break Time!", MessageBoxButton.OK, MessageBoxImage.Exclamation, MessageBoxResult.OK, MessageBoxOptions.DefaultDesktopOnly);
                                 canAlarm = false;
                                 media3.Stop();
-
+                                media3.Close();
                             }
                         }
                     }
